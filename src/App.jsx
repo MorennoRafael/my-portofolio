@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import { useState } from "react";
-import { FaWhatsapp, FaEnvelope } from "react-icons/fa";
+import { FaWhatsapp, FaEnvelope, FaGithub } from "react-icons/fa";
 import "./App.css";
 import ExperienceTimeline from "./components/ExperienceSection";
 import Skills from "./components/Skills";
@@ -37,6 +37,12 @@ function App() {
                 <a href="https://wa.me/6289697392258" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 underline">
                   <FaWhatsapp size={18} />
                   <p className="text-sm">+62 896-9739-2258</p>
+                </a>
+
+                {/* Github */}
+                <a href="https://github.com/MorennoRafael" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 underline">
+                  <FaGithub size={18} />
+                  <p className="text-sm">MorennoRafael</p>
                 </a>
               </div>
             </div>
