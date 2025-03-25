@@ -4,6 +4,7 @@ import { FaWhatsapp, FaEnvelope, FaGithub } from "react-icons/fa";
 import "./App.css";
 import ExperienceTimeline from "./components/ExperienceSection";
 import Skills from "./components/Skills";
+import ProjectSection from "./components/ProjectSection";
 
 function App() {
   return (
@@ -74,27 +75,7 @@ function App() {
               <ExperienceTimeline />
 
               {/* Projects */}
-              <section className="flex flex-col gap-2">
-                <h2 className="text-2xl font-semibold text-gray-100">Projects</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div className="flex flex-col bg-white/10 p-4 rounded-lg gap-2">
-                    <img src="/images/3.jpg" alt="Recipe" className="w-full h-32 md:h-32 lg:h-48 object-cover rounded-lg" />
-                    <h3 className="text-lg font-semibold text-gray-100">Recipe Website</h3>
-                    <p className="text-gray-300 md:text-md">
-                      A beautifully designed recipe website built with React and Tailwind CSS.
-                      It provides an intuitive experience for discovering and saving delicious recipes effortlessly.
-                    </p>
-                    <a href="https://your-recipe-website.com" target="_blank" rel="noopener noreferrer"
-                      className="mt-2 inline-block px-4 py-2 bg-blue-500 bg-gradient-to-br from-blue-500/80 to-blue-700/80 
-                backdrop-blur-lg border border-blue-400 text-white font-semibold rounded-md 
-                shadow-md hover:from-blue-600 hover:to-blue-800 transition duration-300">
-                      Visit Website
-                    </a>
-                  </div>
-
-
-                </div>
-              </section>
+              <ProjectSection />
 
               {/* Skills */}
               <Skills />

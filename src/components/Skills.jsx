@@ -10,7 +10,8 @@ import {
     SiBootstrap,
     SiFirebase,
     SiJavascript,
-    SiVite
+    SiVite,
+    SiWordpress
 } from "react-icons/si";
 
 const skills = [
@@ -25,7 +26,8 @@ const skills = [
     { icon: <SiBootstrap className="w-6 h-6 text-purple-500" />, name: "Bootstrap" },
     { icon: <SiFirebase className="w-6 h-6 text-yellow-400" />, name: "Firebase" },
     { icon: <SiJavascript className="w-6 h-6 text-yellow-300" />, name: "JavaScript" },
-    { icon: <SiVite className="w-6 h-6 text-purple-400" />, name: "Vite" }
+    { icon: <SiVite className="w-6 h-6 text-purple-400" />, name: "Vite" },
+    { icon: <SiWordpress className="w-6 h-6 text-blue-600" />, name: "WordPress" }
 ];
 
 export default function Skills() {
